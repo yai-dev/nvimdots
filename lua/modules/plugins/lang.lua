@@ -27,4 +27,8 @@ lang["chrisbra/csv.vim"] = {
 	lazy = true,
 	ft = "csv",
 }
+lang["aklt/plantuml-syntax"] = {
+	lazy = true,
+	ft = "plantuml",
+}
 return lang

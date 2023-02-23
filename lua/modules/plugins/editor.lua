@@ -66,6 +66,15 @@ editor["romainl/vim-cool"] = {
 	lazy = true,
 	event = { "CursorMoved", "InsertEnter" },
 }
+editor["weirongxu/plantuml-previewer.vim"] = {
+	lazy = true,
+	ft = "plantuml",
+	config = require("editor.plantuml-previewer"),
+	dependencies = {
+		{ "aklt/plantuml-syntax" },
+		{ "tyru/open-browser.vim" },
+	},
+}
 
 ----------------------------------------------------------------------
 --                  :treesitter related plugins                    --
